@@ -1162,6 +1162,18 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 #quote .quote-body{
 	padding: 30px 30px 30px 30px;
 }
+#googleMap{
+	/*border-radius: 30%;*/
+	padding: 5px;
+    display: block;
+    border: 5px solid rgba(1, 2, 21, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#googleMap:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
 /*.fa-hackerrank{
 	background: url('../img/favicon/hackerrank.ico');
   	height: 32px;
